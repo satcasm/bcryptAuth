@@ -27,7 +27,7 @@ const isLogin = (req,res,next) => {
 };
 
 app.get("/", (req, res) => {
-    res.send("Home");
+    res.render("home");
 });
 
 app.get("/register", (req, res) => {
